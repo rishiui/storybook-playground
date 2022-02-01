@@ -11,7 +11,7 @@ export const StyledDiv = styled.div`
     height: 80px;
     width: 80px;
     background-position: top center;
-    border: 4px dashed green;
+    border: 3px dashed green;
     border-radius: 100%;
   }
   .sender-info{

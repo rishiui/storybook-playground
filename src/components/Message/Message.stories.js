@@ -13,15 +13,21 @@ const Template = (args) => <Message {...args} />;
 
 export const DefaultMessage = Template.bind({});
 DefaultMessage.args = {
-  senderImageUrl: 'https://avatars.githubusercontent.com/u/1500684?v=4',
-  senderName: 'Kent C. Dodds',
-  senderMessage: 'Hey, I have created React Testing library do give it a shot...'
+  messageDetails: {
+    senderId: '123',
+    senderImageUrl: 'https://avatars.githubusercontent.com/u/1500684?v=4',
+    senderName: 'Kent C. Dodds',
+    senderMessage: 'Hey, I have created React Testing library do give it a shot...'
+  }
 };
 
 export const LengthyMessage = Template.bind({});
 LengthyMessage.args = {
-  senderName: 'Unknown user',
-  senderMessage: `Now is the winter of our discontent Made glorious summer by this sun of York;
-  And all the clouds that lour'd upon our house In the deep bosom of the ocean buried.
-  Now are our brows bound with victorious wreaths`
+  messageDetails: {
+    senderId: '456',
+    senderName: 'Unknown user',
+    senderMessage: `Now is the winter of our discontent Made glorious summer by this sun of York;
+    And all the clouds that lour'd upon our house In the deep bosom of the ocean buried.
+    Now are our brows bound with victorious wreaths`
+  }
 };
