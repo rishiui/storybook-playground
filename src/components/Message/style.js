@@ -4,6 +4,7 @@ export const StyledDiv = styled.div`
   height: 100px;
   display:flex;
   background-color: #ece5dd;
+  border: 1px solid lightgrey;
   align-items: center;
   padding: 0 20px;
   .sender-image{
