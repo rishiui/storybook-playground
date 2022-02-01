@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tag Default Tag 1`] = `
+<div
+  className="sc-bdvvtL cTVrNL tag tag-sm"
+>
+  This is a default tag
+</div>
+`;
+
+exports[`Storyshots Components/Tag Large Orange Tag 1`] = `
+<div
+  className="sc-bdvvtL kcarlf tag tag-lg"
+>
+  This is a large orange tag with custom color
+</div>
+`;
+
+exports[`Storyshots Components/Tag Medium Green Tag 1`] = `
+<div
+  className="sc-bdvvtL jRNBKe tag tag-md"
+>
+  This is a medium green tag
+</div>
+`;
