@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 ## Storybook setup for automated snapshot testing
 
-### `add -D @storybook/addon-storyshots react-test-renderer`
+### `npm add -D @storybook/addon-storyshots react-test-renderer`
 
 
 In scr/ create a file storybook.test.js and add the following code:
