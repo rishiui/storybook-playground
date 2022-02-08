@@ -1,14 +1,14 @@
 import React from "react";
 import Message from "../Message/Message";
 import PropTypes from "prop-types";
-
+import { NO_MESSAGE } from "./constants";
 const MessageList = ({ messageList, onClickImage, onClickMessage }) => {
   const clickEvents = {
     onClickImage,
     onClickMessage,
   };
   if (!messageList?.length) {
-    return <div>Seems like you have got no messages yet...</div>;
+    return <div>{NO_MESSAGE}</div>;
   }
 
   return messageList.map((msg) => (

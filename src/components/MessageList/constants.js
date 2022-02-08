@@ -1,0 +1,1 @@
+export const NO_MESSAGE = 'Seems like you have got no messages yet...';
