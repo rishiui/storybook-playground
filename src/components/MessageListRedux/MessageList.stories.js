@@ -1,13 +1,13 @@
 import React from "react";
 
-import MessageList from "./MessageList";
+import { PureMessageList } from "./MessageList";
 export default {
-  title: "Components/MessageList",
-  component: MessageList,
+  title: "Components/PureMessageList",
+  component: PureMessageList,
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <MessageList {...args} />;
+const Template = (args) => <PureMessageList {...args} />;
 
 export const DefaultMessage = Template.bind({});
 DefaultMessage.args = {
