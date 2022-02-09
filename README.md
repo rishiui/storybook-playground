@@ -3,9 +3,9 @@
 A repo with multiple examples to play around and getting used to storybook.
 Following examples with increasing level of complexity to enhance your understanding.
 
-  1. Level 0 : Tag component (Noob) 🙂
-  2. Level 1 : Message component (Beginner) 😀
-  3. Level 2 : MessageList component (Intermediate) 😄
+  1. Level 0 : Tag component (Beginner) 🙂
+  2. Level 1 : Message component (Intermediate) 😀
+  3. Level 2 : MessageList component (Expert) 😄
   4. Level 3 : MessageListRedux component (God) 😇
 
 ## Storybook setup ⚓️
