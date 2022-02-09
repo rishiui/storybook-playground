@@ -76,8 +76,18 @@ it("renders pinned tasks at the start of the list", () => {
 });
 ```
 
+## Deployment on Netlify
 
-## Deployment on chromatic 
+Update the run command: 
+```
+npm run build-storybook
+```
+Update the build folder:
+```
+storybook-static
+```
+
+## Deployment on Chromatic 
 
 ```
 npm run build-storybook
