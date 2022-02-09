@@ -1,5 +1,12 @@
-# Getting Started with Storybook 📕📖
+# Storybook Playground 📕📖
 
+A repo with multiple examples to play around and getting used to storybook.
+Following examples with increasing level of complexity to enhance your understanding.
+
+  1. Level 0 : Tag component (Noob) 🙂
+  2. Level 1 : Message component (Beginner) 😀
+  3. Level 2 : MessageList component (Intermediate) 😄
+  4. Level 3 : MessageListRedux component (God) 😇
 
 ## Storybook setup ⚓️
 
@@ -83,3 +90,5 @@ Copy the token
 npm chromatic --project-token=<token>
 ```
 
+
+Like this repo ?? well you know what to do.. 😉⭐
