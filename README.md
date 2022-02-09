@@ -1,23 +1,23 @@
-# Getting Started with Storybook
+# Getting Started with Storybook 📕📖
 
 
-## Storybook setup
+## Storybook setup ⚓️
 
-Make sure your react app ✅ ✅ is setup before setting you storybook. In the project directory, you can run:
+Make sure your react app ✅ is setup before setting you storybook. In the project directory, you can run:
 
 ```
 npx sb init
 ```
 
 
-## Start storybook 
+## Start storybook ✈️
 
 ```
 npm start storybook
 ```
 
 
-## Storybook setup for automated snapshot testing
+## Storybook setup for automated snapshot testing 🧩
 
 ```
 npm add -D @storybook/addon-storyshots react-test-renderer
@@ -32,21 +32,21 @@ initStoryshots();
 ```
 
 
-## To Run automated tests
+## To Run automated tests 🧪
 
 ```
 npm test <path to storybook.test.js>
 ```
 
 
-## To update snapshots
+## To update snapshots 🧩
 
 ```
 npm test -- -u
 ```
 
 
-## Setting up react testing library for storybook
+## Setting up react testing library 🔥 for storybook 
 
 ```
 npm install @storybook/testing-react
@@ -70,7 +70,7 @@ it("renders pinned tasks at the start of the list", () => {
 ```
 
 
-## Deployment on chromatic
+## Deployment on chromatic 
 
 ```
 npm run build-storybook
