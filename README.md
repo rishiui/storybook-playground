@@ -85,10 +85,13 @@ npm run build-storybook
 ```
 npm i chromatic
 ```
-Copy the token
+1. Login into https://www.chromatic.com/start with your github profile
+2. Select the repo.
+3. Copy the generated token.
+
 ```
 npm chromatic --project-token=<token>
 ```
-
+Running this command will give you a unique url.
 
 Like this repo ?? well you know what to do.. 😉⭐
